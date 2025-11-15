@@ -14,5 +14,48 @@ Run:
 
 streamlit run app.py
 
-
 Open the URL shown by Streamlit (usually http://localhost:8501) and use the sidebar to upload data or enable sample data.
+
+Load Data
+
+You upload a CSV (or the app uses sample data).
+
+The app converts dates and prepares the dataset.
+
+2️⃣ Apply Filters
+
+You choose date range, products, and regions in the sidebar.
+
+The dashboard shows only the filtered data.
+
+3️⃣ Calculate KPIs
+
+Total Sales
+
+Total Orders
+
+Total Quantity
+
+Unique Products
+
+These numbers are animated for a modern UI.
+
+4️⃣ Build Animated Charts
+
+Animated Time-Series Chart — shows sales over time with a play button.
+
+Animated Bar Race — shows which product sells most every month.
+
+Donut Charts — show product share & region share.
+
+World Map Chart — shows sales by city using latitude/longitude.
+
+5️⃣ Final Dashboard
+
+Interactive charts (zoom, hover).
+
+Animated widgets.
+
+Modern UI with dark theme.
+
+Table + download buttons for CSV/Excel.
